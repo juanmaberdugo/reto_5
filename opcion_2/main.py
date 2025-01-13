@@ -3,6 +3,7 @@ import shapes.square as square
 import shapes.point as point
 import shapes.triangle as triangle
 import shapes.trirectangle as trirectangle
+
 def main():
     rect = rectangle.Rectangle(x=0, y=0, width=10, height=5)
     print(f"Area del rectángulo: {rect.compute_area()}")
